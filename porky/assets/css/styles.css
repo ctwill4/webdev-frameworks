@@ -148,19 +148,7 @@ nav {
 	margin-left: 38px;
 }
 
-nav.fixed {
-	top: 0;
-	left: -40px;
-	position: fixed;
-	height: 50px;
-	display: inline-flex;
-	background-color: #202020;
-	padding-left: 330px;
-	z-index: 10;
-}
-
-nav li {
-	cursor: pointer;
+nav a {
 	text-decoration: none;
 	color: #ffffff;
 	display: inline-block;
