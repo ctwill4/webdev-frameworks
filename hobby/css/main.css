@@ -1,0 +1,182 @@
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+.page-wrap {
+  float: left;
+  height: auto;
+  width: 95%;
+  margin: 0 2.5%; }
+
+html, body {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: helvetica, arial, sans-serif;
+  color: #8f8f8f;
+  background: url(../img/bg-tile.png); }
+
+header {
+  float: left;
+  width: 100%;
+  height: 500px; }
+  header h1 a {
+    float: left;
+    width: 316px;
+    height: 244.4px;
+    background: url(../img/vlogo.png) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    left: 50%;
+    margin: 20px 0 0 -152px;
+    position: relative; }
+    @media screen and (min-width: 920px) {
+      header h1 a {
+        left: 200px; } }
+  header ul {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase; }
+    header ul li {
+      float: left;
+      width: 100%;
+      list-style: none;
+      border-bottom: 1px solid #262626;
+      padding: 0; }
+      header ul li:last-child {
+        border-bottom: 0; }
+      header ul li a {
+        float: left;
+        width: 100%;
+        padding: 12px 0;
+        text-decoration: none;
+        color: #FFFFFF; }
+    @media screen and (min-width: 920px) {
+      header ul {
+        width: auto;
+        float: right;
+        margin-top: 170px; }
+        header ul li {
+          width: auto;
+          display: inline;
+          border-bottom: none; }
+          header ul li a {
+            width: 50%;
+            padding: 42px 25px 0px 25px; } }
+  @media screen and (min-width: 920px) {
+    header {
+      height: 350px; } }
+
+.col-left,
+.col-center,
+.col-right {
+  height: 333px; }
+  .col-left p,
+  .col-center p,
+  .col-right p {
+    width: 300px; }
+
+.col-left p {
+  margin-bottom: 20px; }
+
+.col-center {
+  margin-top: 60px; }
+  .col-center img {
+    margin: 9px auto 29px auto; }
+
+.col-right {
+  margin-top: -10px; }
+
+/* primary CTA ribbon */
+body {
+  color: #FFFFFF; }
+  body .page-wrap .home {
+    position: relative;
+    height: 742px;
+    margin-top: 432px;
+    background: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center; }
+    body .page-wrap .home h2 {
+      font-family: sans-serif; }
+    body .page-wrap .home p {
+      color: #111111;
+      width: 205px;
+      margin: 105px auto 0 auto;
+      padding-left: 115px;
+      font-size: 16px;
+      font-family: helvetica; }
+      body .page-wrap .home p:last-child {
+        margin: 235px auto 0 auto;
+        padding-left: 0;
+        padding-right: 100px; }
+    @media screen and (min-width: 920px) {
+      body .page-wrap .home {
+        margin-top: 300px; } }
+  body .page-wrap .equipment {
+    position: relative; }
+    @media screen and (min-width: 920px) {
+      body .page-wrap .equipment {
+        margin-bottom: 460px; } }
+    body .page-wrap .equipment h2 {
+      margin-top: 40px; }
+    body .page-wrap .equipment .col-left h3 {
+      margin-bottom: 0; }
+    @media screen and (min-width: 920px) {
+      body .page-wrap .equipment .col-left {
+        position: relative;
+        width: 30%;
+        height: 100%;
+        float: left; } }
+    @media screen and (min-width: 920px) {
+      body .page-wrap .equipment .col-center {
+        position: relative;
+        width: 30%;
+        height: 100%;
+        float: left;
+        width: 39.5%; }
+        body .page-wrap .equipment .col-center h3 {
+          margin: -41px auto 50px auto; }
+        body .page-wrap .equipment .col-center p {
+          margin-top: 30px; } }
+    body .page-wrap .equipment .col-right h3 {
+      margin-bottom: -10px; }
+    @media screen and (min-width: 920px) {
+      body .page-wrap .equipment .col-right {
+        position: relative;
+        width: 30%;
+        height: 100%;
+        float: left;
+        float: right; }
+        body .page-wrap .equipment .col-right img {
+          margin: 20px auto 0 auto; } }
+  body .page-wrap .featured {
+    margin-bottom: 100px; }
+    body .page-wrap .featured h2 {
+      margin-top: 50px; }
+    body .page-wrap .featured .albums div img {
+      width: 256px;
+      height: 256px; }
+      @media screen and (min-width: 920px) {
+        body .page-wrap .featured .albums div img {
+          width: 314.33px;
+          height: 314.33px; } }
+  body .page-wrap footer {
+    height: 50px;
+    background-color: #AAAAAA; }
+    body .page-wrap footer p {
+      padding-top: 20px;
+      position: relative;
+      color: #111111; }

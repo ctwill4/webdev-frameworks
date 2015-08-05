@@ -1,0 +1,30 @@
+
+
+.col-left,
+.col-center,
+.col-right {
+	height: 333px;
+
+	p{
+		width: 300px;
+	}
+}
+
+.col-left{
+
+	p{
+		margin-bottom: 20px;
+	}
+}
+
+.col-center{
+	margin-top: 60px;
+
+	img{
+		margin: 9px auto 29px auto;
+	}
+}
+
+.col-right{
+	margin-top: -10px;
+}

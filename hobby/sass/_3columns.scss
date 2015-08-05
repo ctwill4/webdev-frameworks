@@ -1,0 +1,8 @@
+
+/* primary CTA ribbon */
+@mixin threecolumns($width: 30%, $height: 100%) {
+	position: relative;
+	width: $width;
+	height: $height;
+	float: left;
+}

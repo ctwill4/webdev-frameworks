@@ -1,0 +1,80 @@
+header{
+	float: left;
+	width: 100%;
+	height: 500px;
+
+	h1{
+
+		a{
+			float: left;
+			width: 316px;
+			height: 244.4px;
+			background: url(../img/vlogo.png) no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			left: 50%;
+			margin: 20px 0 0 -152px;
+			position: relative;
+
+			@media screen and (min-width: $tablet-break){
+				left: 200px;
+			}
+		}
+
+	}
+
+	ul{
+		float: left;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding: 0;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		li{
+			float: left;
+			width: 100%;
+			list-style: none;
+			border-bottom: 1px solid #262626;
+			padding: 0;
+
+			&:last-child{
+				border-bottom: 0;
+			}
+
+			a{
+				float: left;
+				width: 100%;
+				padding: 12px 0;
+				text-decoration: none;
+				color: $white;
+			}
+		}
+
+		@media screen and (min-width: $tablet-break){
+			width: auto;
+			float: right;
+			margin-top: 170px;
+
+			li{
+				width: auto;
+				display: inline;
+				border-bottom: none;
+
+				a{
+					width: 50%;
+					padding: 42px 25px 0px 25px;
+				}
+			}
+
+		}
+	}
+
+	@media screen and (min-width: $tablet-break){
+		height: 350px;
+	}
+
+
+}
+
