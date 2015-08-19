@@ -1,1 +1,4 @@
-clay.html
+node_modules
+**/node_modules
+
+.psd
