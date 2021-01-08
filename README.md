@@ -1,1 +1,1 @@
-this is my readme file for frameworks class
+Contains several projects focused on learning how to navigate and utilize different web frameworks
